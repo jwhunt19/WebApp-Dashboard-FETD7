@@ -12,33 +12,34 @@ font-family: 'Open Sans', sans-serif; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 50px;
+    height: 40px;
     width: 100%;
 }
 
 .header h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     position: absolute;
     left: 15px;
 }
 
 .header svg {
-    width: 25px;
+    width: 20px;
     margin-right: 15px;
+    margin-top: 3px;
 }
 
 .headerDivider {
     border-right:1px solid #5D61BF; 
-    height:40px;
+    height:30px;
     position:absolute;
-    right:125px;
+    right:123px;
     top:5px; 
 }
 
 .header img {
-    width: 40px;
+    width: 35px;
     border-radius: 50%;
     margin-right: 10px;
     
@@ -48,7 +49,7 @@ font-family: 'Open Sans', sans-serif; */
     color: white;
     margin-right: 10px;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /* Nav */
@@ -58,24 +59,214 @@ font-family: 'Open Sans', sans-serif; */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
+    height: 30px;
     width: 100%;
     border-bottom: 3px solid rgb(33, 33, 49);
 }
 
 .nav a {
-    width: 25px;
+    width: 20px;
+    padding-top: 5px;
     margin: 0px 10px;
 }
 
 .nav-selected {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 /* Main */
 
 main {
     display: grid;
+    font-family:'Open Sans', sans-serif;
+    color: #8F8F8F;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #666666;
+}
+
+.main-section {
+    padding: 15px 0px 0px 12px;
+    border-bottom: 1px solid #D1D1D1;
 }
 
 /* Dashboard */
+
+.main-header {
+    display: flex;
+    text-align: right;
+}
+
+.headline {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.main-header-search {
+    width: 75%;
+    background-color: #FBFBFB;
+    border-left: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+    border-bottom-left-radius: 5px;
+}
+
+.main-header-search input {
+    width: 62%;
+    height: 50%;
+    margin: 6px 5px 0 0;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+/* Traffic */
+
+.traffic h3 {
+    display: inline-block;
+}
+
+.traffic-nav {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+}
+
+.traffic-nav-link {
+    float: right;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding:  2px 6px;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.active {
+    background-color: #81C98F;
+    border-radius: 50px;
+    color: white;
+}
+
+
+/* Social Stats */
+
+.social-stats h3 {
+    margin-bottom: 10px;
+}
+
+.social-stats-container {
+    margin-bottom: 20px;
+}
+
+.social-stats-box {
+    width: 90px;
+    background-color: #FBFBFB;
+    margin: 2px;
+    display: inline-block;
+    border: 1px solid #D1D1D1;
+    border-radius: 2px;
+}
+
+.social-svg {
+    width: 30px;
+    height: 30px;
+    background-color: #7377BF;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 5px 5px;
+}
+
+.twitter-svg {
+    width: 15px;
+    height: 15px;
+    padding-top: 9px;
+}
+
+.facebook-svg {
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+}
+
+.google-svg {
+    width: 15px;
+    height: 15px;
+    padding-top: 8px;
+}
+
+.social-text {
+    display: inline-block;
+    padding: 5px 0px 5px 2px;
+}
+
+.social-stats-box h4 {
+    font-size: 7px;
+    color: #7477BF;
+}
+
+.social-stats-box span {
+    font-size: 13px;
+}
+
+/* New Members */
+
+.new-members-div {
+    width: 280px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.new-members img {
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.new-members-info {
+    display: inline-block;
+    margin: 0 0 15px 10px;
+}
+
+.new-members p {
+    font-size: 15px;
+}
+
+.new-members {
+    font-size: 10px;
+}
+
+p.new-members-post-date {
+    font-size: 10px;
+    float: right;
+    margin-top: 25px;
+
+}
+
+/* Recent Activity */
+
+.recent-activity-div {
+    width: 280px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.recent-activity img {
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.recent-activity-info {
+    display: inline-block;
+    margin: 0 0 15px 10px;
+}
+
+.recent-activity p {
+    font-size: 8px;
+}
