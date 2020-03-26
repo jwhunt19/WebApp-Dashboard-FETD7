@@ -254,19 +254,75 @@ p.new-members-post-date {
 .recent-activity-div {
     width: 280px;
     border-bottom: 1px solid #E9E9E9;
+    display: flex;
 }
 
 .recent-activity img {
     width: 35px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .recent-activity-info {
     display: inline-block;
-    margin: 0 0 15px 10px;
+    margin: 17px 0 15px 10px;
 }
 
 .recent-activity p {
     font-size: 8px;
+}
+
+p.recent-activity-arrow {
+    font-size: 20px;
+    color: #787CC1;
+    align-self: flex-end;
+    margin: 0 0 15px auto;
+}
+
+/* Message User */
+
+.message-user-form {
+    margin: 15px 0;
+}
+
+.message-user-form input {
+    width: 275px;
+    height: 25px;
+    background-color: #FBFBFB;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    font-size: 11px;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.message-user-form input::placeholder,
+.message-user-form textarea::placeholder {
+    color: #BBBBBB;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.message-user-form textarea {
+    width: 275px;
+    height: 75px;
+    margin-top: 10px;
+    background-color: #FBFBFB;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px 0 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+}
+
+.message-user-form button {
+    width: 292px;
+    height: 25px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7377BF;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
 }
