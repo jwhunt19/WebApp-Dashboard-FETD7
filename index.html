@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="toggle-switch.css">
+    <link rel="stylesheet" href="styles.css">
     <title>YourApp Dashboard</title>
 </head>
 <body>
@@ -237,29 +237,40 @@
         <!-- Settings -->
         <section class="settings main-section">
             <h3>SETTINGS</h3>
-            <!-- custom CSS toggle code-->
-            <label class="switch-light switch-ios" onclick="">
-                <input type="checkbox">
-                
-                <strong>
-                    Wireless
-                </strong>
-                
-                <span>
-                    <span>Off</span>
-                    <span>On</span>
-                    <a></a>
-                </span>
-            </label>
-            <!-- custom CSS toggle code-->
-            <select class="form-field" id="timezone">
-                <option disabled selected>Select a Timezone</option>
-                <option>Eastern</option>
-                <!-- more options -->
-            </select>
-            <div class="settings-button" >
-                <button class="button-primary" id="save">Save</button>
-                <button class="button-disabled" id="cancel">Cancel</button>
+            <div class="settings-div">
+                <p>Send Email Notifications</p>
+                <label class="switch-light switch-ios" onclick="">
+                    <input type="checkbox">
+                    <span>
+                        <span>Off</span>
+                        <span>On</span>
+                        <a></a>
+                    </span>
+                </label>
+            </div>
+            <div class="settings-div">
+                <p>Set Profile To Public</p>
+                <label class="switch-light switch-ios" onclick="">
+                    <input type="checkbox">
+                    <span>
+                        <span>Off</span>
+                        <span>On</span>
+                        <a></a>
+                    </span>
+                </label>
+            </div>
+            <div class="settings-submit">
+                <select class="form-field" id="timezone">
+                    <option disabled selected>Select a Timezone</option>
+                    <option>EST</option>
+                    <option>CST</option>
+                    <option>MST</option>
+                    <option>PST</option>
+                </select>
+                <div class="settings-buttons" >
+                    <button class="button-primary" id="save">Save</button>
+                    <button class="button-disabled" id="cancel">Cancel</button>
+                </div>
             </div>
         </section>
 
