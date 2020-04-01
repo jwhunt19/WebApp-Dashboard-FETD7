@@ -536,13 +536,13 @@ p.recent-activity-arrow {
     /* 720px - new members */
 
     .new-members-div {
-        width: 320px;
+        width: 90%;
     }
 
     /* 720px - recent activity */
 
     .recent-activity-div {
-        width: 320px;
+        width: 90%;
         height: 63px;
     }
 
@@ -557,17 +557,17 @@ p.recent-activity-arrow {
     /* 720px - message user */
 
     .message-user-form input {
-        width: 310px;
+        width: 90%;
         height: 30px;
     }
 
     .message-user-form textarea {
-        width: 310px;
+        width: 90%;
         height: 100px;
     }
 
     .message-user-form button {
-        width: 327px;
+        width: 94%;
         height: 35px;
     }
 
@@ -575,19 +575,19 @@ p.recent-activity-arrow {
 
     .form-field {
         margin-top: 30px;
-        width: 325px;
+        width: 90%;
     }
 
     .settings-buttons {
         display: flex;
-        width: 325px;
+        width: 90%;
         justify-content: space-between;
         margin: 10px 0;
     }
 
     .button-primary,
     .button-disabled {
-        width: 150px;
+        width: 48%;
         height: 35px;
     }
 
