@@ -6,6 +6,10 @@ font-family: 'Open Sans', sans-serif; */
     padding: 0;
 }
 
+canvas {
+    max-width: 100%;
+}
+
 /* Header */
 .header {
     background-color: #7477BF;
