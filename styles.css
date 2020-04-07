@@ -448,7 +448,7 @@ p.recent-activity-arrow {
     box-shadow: inset 0 0 0 30px #7377BF; 
 }
 
-/* 720px Media */
+/* 768px Media */
 
 @media (min-width: 768px) {
 
@@ -458,7 +458,7 @@ p.recent-activity-arrow {
         grid-template-rows: 50px auto;
     }
 
-    /* 720px - header */
+    /* 768px - header */
 
     .header {
         grid-column-start: 1;
@@ -472,7 +472,7 @@ p.recent-activity-arrow {
         top: 10px
     }
 
-    /* 720px - nav */
+    /* 768px - nav */
 
     .nav {
         grid-column-start: 1;
@@ -501,7 +501,7 @@ p.recent-activity-arrow {
         border: none;
     }
 
-    /* 720px - main layout */
+    /* 768px - main layout */
 
     main {
         display: grid;
@@ -529,7 +529,7 @@ p.recent-activity-arrow {
         border-left: 1px solid #D1D1D1;
     }
 
-    /* 720px - dashboard */
+    /* 768px - dashboard */
 
     .main-header-search {
         width: 100%;
@@ -548,7 +548,7 @@ p.recent-activity-arrow {
         padding-top: 5px;
     }
 
-   /* 720px - social */
+   /* 768px - social */
 
    .social-stats-container {
        display: flex;
@@ -593,7 +593,7 @@ p.recent-activity-arrow {
         font-size: 27px;
     }
 
-    /* 720px - recent activity */
+    /* 768px - recent activity */
 
     .recent-activity-div {
         height: 63px;
@@ -607,7 +607,7 @@ p.recent-activity-arrow {
         font-size: 25px;
     }
 
-    /* 720px - message user */
+    /* 768px - message user */
 
     .message-user-form input {
         height: 30px;
@@ -622,7 +622,7 @@ p.recent-activity-arrow {
         height: 35px;
     }
 
-    /* 720px - settings */
+    /* 768px - settings */
 
     .form-field {
         margin-top: 30px;
@@ -637,6 +637,16 @@ p.recent-activity-arrow {
     .button-primary,
     .button-disabled {
         height: 35px;
+    }
+
+}
+
+/* 1024px Media */
+
+@media (min-width: 1024px) {
+
+    h3 {
+        font-size: 15px;
     }
 
 }
